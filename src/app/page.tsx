@@ -1,3 +1,4 @@
+'use client'
 import Banner from "./Components/Banner";
 import Card from "../app/Components/Card";
 import Carousel from "./Components/Carsoul";
@@ -14,10 +15,10 @@ import Header from "./Components/Header";
 export default function page() {
   return (
     <div>
-      <Header/>
-      <Carousel/>
-      <Progressor/>
-      <Banner/>
+<Header/>
+<Carousel/>
+<Progressor/>
+<Banner/>
 <Card/>
 <Menuitems/>
 <Offer/>
